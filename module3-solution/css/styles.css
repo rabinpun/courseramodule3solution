@@ -1,0 +1,82 @@
+.dropdownmenu{
+    display:none;
+  }
+
+.navbar{
+    margin:0;
+    padding: 0;
+    margin-top:-2px
+   
+    
+}
+
+.container-content{
+    margin:0;
+    padding:2rem;
+}
+
+.brand-container{
+    margin: 0;
+    font-size: 2.5rem;
+    padding: 1rem;
+    /* padding-top:5px; */
+    font-weight: bold;
+    background-color: lightgreen;
+    width:100%;
+    color:black
+}
+
+.menu-heading{
+    font-size: 2.5rem;
+    color:black;
+    font-weight: bold;
+    margin-top:0;
+    padding-top:0
+}
+
+.menu-title{
+    font-size: 2.1rem;
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    margin-top:0;
+    padding-top:0
+}
+
+.mc{
+    background-color: lightgreen;
+    margin:0;
+    font-size: 2rem;
+    padding-top:1rem;
+}
+
+.es{
+   margin:0;
+   padding:1.5rem;
+
+}
+
+.button-menu{
+    top:-20px;
+    border-color:black
+}
+
+.link-menu{
+    background-color: silver;
+    border-bottom: 2px solid black;
+}
+
+.link-name{
+    text-align: center;
+    color:black;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .dropdownmenu{
+        display:block;
+      }
+  }
+ 
